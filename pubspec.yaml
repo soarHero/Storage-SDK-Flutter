@@ -13,7 +13,10 @@ dependencies:
   convert: ^3.0.0
   crypto: ^3.0.1
   shared_preferences: ^2.0.5
-  dio_http_cache: ^0.3.0
+  dio_http_cache:
+    git:
+      url: https://gitlab.com/eayaya/dio-http-cache.git
+      ref: 569b14e95c84003b428c0a2926507ba495cb7c58
   path: ^1.8.0
 
 dev_dependencies:
